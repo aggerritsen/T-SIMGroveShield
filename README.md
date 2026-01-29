@@ -7,8 +7,15 @@ It provides a proven foundation for later integration of camera frames, AI infer
 
 This development includes a UART stub for testing, build on a XIAO ESP32-S3. This board can be used with the Grove Shield for XIAO, linking both shields with a Grove cable. 
 
+![PCB Grove Extension shield](pcb/T-SIM7xxx-GroveShield.jpg)
+
 ## Printer Circuit Board (PCB)
 A Fritzing file (fzz) is available to order the PCB at manufactors at choice.
+
+Example shield:
+![PCB Grove Extension shield](pcb/PCB-EXT.jpg)
+
+The image shows earlier version with different UART wiring labels.
 
 ## TX/RX wiring (Rev. A)
 The TX and RX pins of UART Grove connector T-SIM Grove shield can be wired at choice with wire links.
@@ -18,6 +25,8 @@ The TX and RX pins of UART Grove connector T-SIM Grove shield can be wired at ch
 |  2  | A2 -> RX, B2 -> TX | RX | TX | 
 
 The wiring Pin1-TX, Pin2-RX (first configuration) is complementary to the cable wiring to the Grove Shield for XIAO (as shown in the picture) 
+
+![PCB Grove Extension shield](pcb/T-SIMGroveShield.jpg)
 
 ---
 
@@ -30,10 +39,9 @@ This project exists to answer these questions conclusively:
 * Is the use of output GPIO consistent for all boards?
 * Can we use generic shield (e.g. Grove, Relais, Motor driver) for all boards
 
-Example shield:
-![PCB Grove Extension shield](pcb/PCB-EXT.jpg)
 
-The image shows earlier version with different UART wiring labels.
+
+
 
 ---
 
