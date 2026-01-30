@@ -28,7 +28,8 @@ The wiring Pin1-TX, Pin2-RX (first configuration) is complementary to the cable 
 
 ![PCB Grove Extension shield](pcb/T-SIMGroveShield.jpg)
 
-The image shows earlier version with different UART wire bridges.
+*The image shows earlier version with different UART wire bridges.*
+
 ---
 
 ## Goals of This Development
