@@ -14,6 +14,10 @@ This stub exists to answer one question unambiguously:
 
 It is designed as a **transport sanity harness** that you can trust before layering higher-level protocols or large binary payloads (images, inference data, etc.) on top.
 
+Serial output:
+
+![Serial Output XIAO](../doc/OutputXIAO.jpg)
+
 ---
 
 ## Key Features
@@ -150,6 +154,8 @@ All events are logged to USB Serial (`Serial`) with timestamps:
 ```
 
 This makes timing, retries, and protocol state immediately visible during development.
+
+
 
 ---
 
