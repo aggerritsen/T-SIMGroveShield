@@ -15,9 +15,9 @@ A Fritzing file (fzz) is available to order the PCB at manufactors at choice.
 Example shield:
 ![PCB Grove Extension shield](pcb/PCB-EXT.jpg)
 
-The image shows earlier version with different UART wiring labels.
 
-## TX/RX wiring (Rev. A)
+
+## TX/RX wiring (Rev. B)
 The TX and RX pins of UART Grove connector T-SIM Grove shield can be wired at choice with wire links.
 | Config | Wires  | Pin 1 (A) | Pin 2 (B) |
 |-----|-----|----|----|
@@ -28,6 +28,7 @@ The wiring Pin1-TX, Pin2-RX (first configuration) is complementary to the cable 
 
 ![PCB Grove Extension shield](pcb/T-SIMGroveShield.jpg)
 
+The image shows earlier version with different UART wire bridges.
 ---
 
 ## Goals of This Development
