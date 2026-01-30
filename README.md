@@ -1,6 +1,6 @@
 # T-SIM Grove shield (ESP32 / ESP32-S3)
 
-This repository contains a **clean, deterministic UART/I2C/GPIO baseline** used to validate reliable communication between **LilyGO T-SIM boards** and other board using a generic T-SIM Grove Shield. This shield also provides a male header connector for the XIAO slot of the Seeed Grove Vision AI V2 board.
+This repository contains a **clean, deterministic UART/I2C/GPIO baseline** used to validate reliable communication between **LilyGO T-SIM boards** and other boards using a generic T-SIM Grove Shield. This shield also provides a male header connector for the XIAO slot of the Seeed Grove Vision AI V2 board.
 
 The focus of this development is **transport correctness**, not application logic.
 It provides a proven foundation for later integration of camera frames, AI inference data, or other high-volume payloads and the pilot of actuators like relays, DC or stepper motors and other I2C perhiphials development board. 
